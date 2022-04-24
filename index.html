@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script language="javascript" type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/p5.serialserver@0.0.28/lib/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCE12P1aGCklwrZpjnLFCBzVfBK8G9c8lg",
+            authDomain: "cs5041-9dcef.firebaseapp.com",
+            databaseURL: "https://cs5041-9dcef-default-rtdb.firebaseio.com",
+            projectId: "cs5041-9dcef",
+            storageBucket: "cs5041-9dcef.appspot.com",
+            messagingSenderId: "731013971092",
+            appId: "1:731013971092:web:46fe56b5d138f0c8738881",
+            measurementId: "G-124DCH1SK8"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+
+    </script>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="test.js" type="text/javascript"></script>
+</body>
+
+</html>
